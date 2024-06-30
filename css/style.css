@@ -169,6 +169,19 @@
     letter-spacing: 30px;
     margin-right: -30px;
 }
+@media (max-width: 580px) {
+    .d-flex.align-items-center {
+        flex-direction: column;
+        text-align: center;
+    }
+    .d-flex.align-items-center .years {
+        margin-bottom: 1rem; /* Adjust as needed */
+    }
+    .d-flex.align-items-center h3 {
+        margin-top: 1rem; /* Adjust as needed */
+    }
+}
+
 
 
 /*** Skills ***/
